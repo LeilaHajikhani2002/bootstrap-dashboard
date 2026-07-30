@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "IranYekan";
+    font-weight: normal;
+    src: url("css/fonts/IRANYEKAN/IRANYekanX-Regular.woff") format("woff"), url("css/fonts/IRANYEKAN/IRANYekanX-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "IranYekan";
+    font-weight: bold;
+    src: url("css/fonts/IRANYEKAN/IRANYekanX-Bold.woff") format("woff"), url("css/fonts/IRANYEKAN/IRANYekanX-Bold.woff2") format("woff2");
+}
+* {
+    box-sizing: border-box;
+    font-family: IranYekan, sans-serif;
+    font-feature-settings: "ss01";
+}
+
+.me-n10{
+    margin-right: -10px;
+}
+
+.x-small{
+    font-size: 0.7em;
+}
+
+.active_projects tbody tr:last-child{
+    border-color: transparent;
+}
+.last_activity li>span{
+    width: 32px;
+    height: 32px;
+}
+
+.last_activity li:not(:last-child)>span::after{
+    content: "";
+    width: 2px;
+    height: 50px;
+    background-color: var(--bs-primary-bg-subtle);
+    top: 100%;
+    position: absolute;
+
+}
+
+
+
