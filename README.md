@@ -1,28 +1,24 @@
-## 🌐 Live Demo
- https://bootstrap-dashboard.leilahajikhani2002.workers.dev
-
-# Template Project
-
+ 🌐 Live Demo
+ https://leilahajikhani2002.github.io/bootstrap-dashboard/
+ 
+ Template Project
 This is a frontend template project built using HTML, SCSS, Bootstrap npm libraries.
 
 ---
 
-## 🚀 Features
-
+ 🚀 Features
 - Responsive layout
 - Image sliders using bootstrap(carousel component)
 
 ---
 
-## 📦 Libraries Used (npm)
-
+ 📦 Libraries Used (npm)
 - bootstrap
 - bootstrap-icons
 
 ---
 
-## 📁 Project Structure
-
+ 📁 Project Structure
 - css/ → compiled CSS files  
 - html/ → HTML pages  
 - images/ → image assets  
@@ -30,8 +26,7 @@ This is a frontend template project built using HTML, SCSS, Bootstrap npm librar
 
 ---
 
-## ⚙️ Installation
-
+ ⚙️ Installation
 After cloning the project, run:
 
 `bash
